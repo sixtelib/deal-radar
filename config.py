@@ -51,7 +51,7 @@ SEARCH_SOURCES = [
     {
         "name": "fusacq",
         "search_urls": [
-            "https://www.fusacq.com/reprendre-une-entreprise/resultats-annonces-cession-entreprise_fr_?id_pays=p33&id_region=&id_localisation=%2Cr33_12%2C&recherche_par=motscles&reference_mots_cles=&id_secteur_activite=0&id_secteur=&identifiant_profil=&type_cession=Majoritaire&id_raison_cession=1&immo_a_vendre=&prix_cession=490000%3B1000000&prix_cession_null=0&type_repreneur_personne=0&type_repreneur_personne=1&type_repreneur_societe=0&apport_demande=0%3B150000&apport_demande_null=0&apport_demande_null=1&ca=0%3B20000000&ca_null=0&ca_null=1&resultat_net=&nb_personnes=0%3B200&redressement_judiciaire=non&prix_cession_min=490000&prix_cession_max=1000000&ca_min=0&ca_max=20000000&apport_min=0&apport_max=150000&nb_personnes_min=0&nb_personnes_max=200&type_recherche=5&rechercher=",
+            "https://www.fusacq.com/reprendre-une-entreprise/resultats-annonces-cession-entreprise_fr_?id_pays=0&id_localisation=%2Cr33_12%2C&recherche_par=motscles&reference_mots_cles=&id_secteur_activite=0&id_secteur=&identifiant_profil=&type_cession=Majoritaire&id_raison_cession=1&immo_a_vendre=&prix_cession=490000%3B1000000&prix_cession_null=0&type_repreneur_personne=0&type_repreneur_personne=1&type_repreneur_societe=0&apport_demande=0%3B150000&apport_demande_null=0&apport_demande_null=1&ca=0%3B1510000&ca_null=0&ca_null=1&resultat_net=&nb_personnes=0%3B200&redressement_judiciaire=non&prix_cession_min=490000&prix_cession_max=1000000&ca_min=0&ca_max=1500000&apport_min=0&apport_max=150000&nb_personnes_min=0&nb_personnes_max=200&type_recherche=5&rechercher=",
         ],
         "detail_link_pattern": r"/annonce[s]?[-/][a-z0-9-]+",
     },
