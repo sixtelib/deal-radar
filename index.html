@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deal Radar — Suivi de cessions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>{{ css }}</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead__inner">
+    <h1>Deal Radar</h1>
+    <p class="masthead__sub">Île-de-France · CA 500 k€–1 M€ · départ à la retraite · apport ≤ 150 k€</p>
+  </div>
+  <div class="masthead__meta">
+    <span>Dernière vérification</span>
+    <strong>{{ last_run }}</strong>
+  </div>
+</header>
+
+<main>
+  <section class="summary">
+    <div class="summary__stat"><strong>{{ retained|length }}</strong><span>retenues</span></div>
+    <div class="summary__stat"><strong>{{ unsure|length }}</strong><span>à vérifier</span></div>
+    <div class="summary__stat"><strong>{{ total_checked }}</strong><span>annonces analysées</span></div>
+  </section>
+
+  {% if retained %}
+  <section class="ledger">
+    <h2>Retenues</h2>
+    {% for ev in retained %}
+    <article class="entry entry--match">
+      <div class="entry__stamp entry__stamp--retenu">retenu</div>
+      <div class="entry__body">
+        <h3><a href="{{ ev.listing.url }}" target="_blank" rel="noopener">{{ ev.listing.titre or ev.listing.url }}</a></h3>
+        <p class="entry__activite">{{ ev.listing.activite[:220] }}</p>
+        <dl class="entry__facts">
+          <div><dt>Localisation</dt><dd>{{ ev.listing.localisation or "—" }}</dd></div>
+          <div><dt>CA récent</dt><dd>{{ ev.listing.ca_recent and (ev.listing.ca_recent ~ " k€") or "—" }}</dd></div>
+          <div><dt>Score</dt><dd>{{ ev.score }}/100</dd></div>
+        </dl>
+        <ul class="entry__reasons">
+          {% for r in ev.reasons_ok %}<li class="ok">{{ r }}</li>{% endfor %}
+          {% for r in ev.reasons_watch %}<li class="ko">⚠ {{ r }}</li>{% endfor %}
+          {% for r in ev.reasons_unsure %}<li class="unsure">{{ r }}</li>{% endfor %}
+        </ul>
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if unsure %}
+  <section class="ledger">
+    <h2>À vérifier manuellement</h2>
+    <p class="ledger__note">Données financières incomplètes sur la fiche — jette un œil avant d'écarter.</p>
+    {% for ev in unsure %}
+    <article class="entry entry--unsure">
+      <div class="entry__stamp entry__stamp--verifier">à vérifier</div>
+      <div class="entry__body">
+        <h3><a href="{{ ev.listing.url }}" target="_blank" rel="noopener">{{ ev.listing.titre or ev.listing.url }}</a></h3>
+        <ul class="entry__reasons">
+          {% for r in ev.reasons_unsure %}<li class="unsure">{{ r }}</li>{% endfor %}
+          {% for r in ev.reasons_ok %}<li class="ok">{{ r }}</li>{% endfor %}
+        </ul>
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if not retained and not unsure %}
+  <p class="empty">Aucune annonce ne correspond à tes critères pour l'instant. Le radar re-vérifiera à la prochaine exécution planifiée.</p>
+  {% endif %}
+</main>
+
+<footer>
+  <p>Généré automatiquement — vérifie toujours l'annonce d'origine avant toute décision.</p>
+</footer>
+</body>
+</html>
