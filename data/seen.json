@@ -19,73 +19,73 @@
   },
   "https://www.transentreprise.com/offres/fiche/IDF255232C/fabrication-distribution-de-bijoux-haut-de-gamme/ile-de-france/paris/paris": {
     "first_seen": "2026-09-06T20:58:05.357957+00:00",
-    "last_checked": "2026-09-07T13:10:28.409329+00:00",
+    "last_checked": "2026-09-08T11:54:32.430483+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF257058P/societe-de-transport-stockage-logistique/ile-de-france": {
     "first_seen": "2026-09-06T20:58:09.156742+00:00",
-    "last_checked": "2026-09-07T13:10:31.798387+00:00",
+    "last_checked": "2026-09-08T11:54:35.962985+00:00",
     "is_match": false,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF261952C/vente-et-installation-de-poeles-et-cheminees/ile-de-france/yvelines/arrond-de-rambouillet": {
     "first_seen": "2026-09-06T20:58:13.414383+00:00",
-    "last_checked": "2026-09-07T13:10:35.190169+00:00",
+    "last_checked": "2026-09-08T11:54:39.339055+00:00",
     "is_match": false,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF262747P/bureau-detudes-environnements-pedagogiques/ile-de-france": {
     "first_seen": "2026-09-06T20:58:17.761625+00:00",
-    "last_checked": "2026-09-07T13:10:38.531728+00:00",
+    "last_checked": "2026-09-08T11:54:42.825525+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF263490C/action-game-prison-island-loisirs-indoor-77/ile-de-france/seine-et-marne/arrond-de-torcy": {
     "first_seen": "2026-09-06T20:58:23.647584+00:00",
-    "last_checked": "2026-09-07T13:10:41.939518+00:00",
+    "last_checked": "2026-09-08T11:54:46.180563+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF263923A/societe-en-chauffage-ventilation-climatisation/ile-de-france/seine-et-marne/arrond-de-melun": {
     "first_seen": "2026-09-06T20:58:26.931939+00:00",
-    "last_checked": "2026-09-07T13:10:45.262316+00:00",
+    "last_checked": "2026-09-08T11:54:49.537029+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF264895P/commerce-de-gros-distribution-materiel-dessai/ile-de-france/essonne": {
     "first_seen": "2026-09-06T20:58:30.218799+00:00",
-    "last_checked": "2026-09-07T13:10:48.655257+00:00",
+    "last_checked": "2026-09-08T11:54:53.027756+00:00",
     "is_match": false,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF265065P/agence-de-communication-corporate-digitale/ile-de-france/paris": {
     "first_seen": "2026-09-06T20:58:33.684080+00:00",
-    "last_checked": "2026-09-07T13:10:52.104201+00:00",
+    "last_checked": "2026-09-08T11:54:56.379973+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF265286A/a-reprendre-plomberie-chauffage-climatisation/ile-de-france/yvelines": {
     "first_seen": "2026-09-06T20:58:36.988656+00:00",
-    "last_checked": "2026-09-07T13:10:55.411837+00:00",
+    "last_checked": "2026-09-08T11:54:59.759095+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF265882A/entreprise-de-menuiserie-bois-menuiserie-exterieu/ile-de-france/hauts-de-seine/arrond-de-nanterre": {
     "first_seen": "2026-09-06T20:58:40.280349+00:00",
-    "last_checked": "2026-09-07T13:10:58.872503+00:00",
+    "last_checked": "2026-09-08T11:55:03.174078+00:00",
     "is_match": false,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF266235C/agence-immobiliere/ile-de-france/hauts-de-seine": {
     "first_seen": "2026-09-06T20:58:43.563337+00:00",
-    "last_checked": "2026-09-07T13:11:02.232465+00:00",
+    "last_checked": "2026-09-08T11:55:06.600768+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/IDF266291P/fabrication-materiels-cuisines-professionnelles/ile-de-france": {
     "first_seen": "2026-09-06T20:58:46.878737+00:00",
-    "last_checked": "2026-09-07T13:11:05.642231+00:00",
+    "last_checked": "2026-09-08T11:55:10.079206+00:00",
     "is_match": true,
     "score": 0
   },
@@ -121,13 +121,37 @@
   },
   "https://www.transentreprise.com/offres/fiche/OCC266338C/commerce-de-proximite-au-coeur-des-corbieres/occitanie/aude/corbieres": {
     "first_seen": "2026-09-07T13:11:12.412901+00:00",
-    "last_checked": "2026-09-07T13:11:12.412920+00:00",
+    "last_checked": "2026-09-08T11:55:23.466166+00:00",
     "is_match": true,
     "score": 0
   },
   "https://www.transentreprise.com/offres/fiche/PAC265582A/coiffure-mixte/provence-alpescote-dazur/bouches-du-rhone/marseille-provence-metropole": {
     "first_seen": "2026-09-07T13:11:15.814410+00:00",
     "last_checked": "2026-09-07T13:11:15.814428+00:00",
+    "is_match": true,
+    "score": 0
+  },
+  "https://www.transentreprise.com/offres/fiche/ARA266323H/pizzeria-a-emporter/auvergne-rhone-alpes/allier/moulins-et-arrondissement": {
+    "first_seen": "2026-09-08T11:54:28.975173+00:00",
+    "last_checked": "2026-09-08T11:54:28.975189+00:00",
+    "is_match": false,
+    "score": 0
+  },
+  "https://www.transentreprise.com/offres/fiche/NAQ266309A/coiffure/nouvelle-aquitaine/haute-vienne/pays-de-limoges": {
+    "first_seen": "2026-09-08T11:55:13.487296+00:00",
+    "last_checked": "2026-09-08T11:55:13.487310+00:00",
+    "is_match": true,
+    "score": 0
+  },
+  "https://www.transentreprise.com/offres/fiche/OCC250237A/belle-affaire-de-fleuristerie/occitanie/aude/bassin-carcassonnais": {
+    "first_seen": "2026-09-08T11:55:16.806234+00:00",
+    "last_checked": "2026-09-08T11:55:16.806244+00:00",
+    "is_match": false,
+    "score": 0
+  },
+  "https://www.transentreprise.com/offres/fiche/OCC266292C/en-station-epicerie-souvenirs-produits-regionaux/occitanie/ariege/arr-de-saint-girons": {
+    "first_seen": "2026-09-08T11:55:20.168910+00:00",
+    "last_checked": "2026-09-08T11:55:20.168926+00:00",
     "is_match": true,
     "score": 0
   }
